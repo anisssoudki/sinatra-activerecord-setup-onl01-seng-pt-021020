@@ -10,6 +10,7 @@ class CreateDogs < ActiveRecord::Migration[5.2]
     drop_table :dogs
   end
   
+  # we can refactor both methods and write def change
   # def change
   #   create_table :dogs do |t|
   #     t.string :name
